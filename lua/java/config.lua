@@ -3,6 +3,7 @@
 ---@field jdtls_plugins string[] what plugins to load
 ---@field java_test { enable: boolean }
 ---@field java_debug_adapter { enable: boolean }
+---@field sts4 { enable: boolean }
 ---@field jdk { auto_install: boolean }
 
 local config = {
@@ -21,6 +22,9 @@ local config = {
 		enable = true,
 	},
 	java_debug_adapter = {
+		enable = true,
+	},
+	sts4 = {
 		enable = true,
 	},
 	jdk = {

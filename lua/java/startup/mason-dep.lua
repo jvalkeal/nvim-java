@@ -47,6 +47,7 @@ function M.get_pkg_list(config)
 		{ name = 'jdtls', version = 'v1.30.1' },
 		{ name = 'java-test', version = '0.40.1' },
 		{ name = 'java-debug-adapter', version = '0.52.0' },
+		{ name = 'sts4', version = '4.20.1.RELEASE' },
 	}
 
 	if config.jdk.auto_install then
